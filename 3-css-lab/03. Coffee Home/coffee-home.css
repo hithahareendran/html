@@ -1,5 +1,29 @@
+@font-face {
+    font-family: 'coffee';
+    src: url('./font/getcoffee.ttf');
+}
+
 body{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #ffffff;
-    
+    width: 1180px;
+    margin: auto;
+    color: #ffffff;
+    font-family: "Times New Roman",serif;
+    font-size: 1.125rem;
+    background-image: url("./image/cafe-home.jpg");
+}
+header h1{
+    text-align: center;
+    font-family: "coffee";
+}
+aside{
+
+    float: left;
+    width: 20%;
+    margin:0 1.5%;
+}
+main{
+
+    float: right;
+    width:73%;
+    margin:0 1.5%;
 }
