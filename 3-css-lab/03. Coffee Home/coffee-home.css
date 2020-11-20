@@ -14,16 +14,46 @@ body{
 header h1{
     text-align: center;
     font-family: "coffee";
+    letter-spacing:10px ;
+    color: #737373;
+}
+header h2{
+    text-align: center;
+    font-size: 1.125rem;
 }
 aside{
-
     float: left;
     width: 20%;
-    margin:0 1.5%;
+    margin:30px;
+   align-self: left;
+   color:  #CCCCCC;
+   
+}
+a{
+    color: #CCCCCC;
+    text-decoration: none;
 }
 main{
 
     float: right;
     width:73%;
-    margin:0 1.5%;
+}
+article{
+    width:500px;
+    color:  #CCCCCC;
+}
+article p{
+    text-align: justify;
+    
+}
+section article:last-child{
+    background-color: #8080802e;
+    padding: 10px;
+}
+
+section article:last-child p{
+    color: #22b6fd;
+}
+section article:last-child p::first-line{
+     color: #a6f016;
 }
